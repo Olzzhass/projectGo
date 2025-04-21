@@ -21,7 +21,8 @@ This Go project reads a `.txt` file and analyzes the word frequency within it. I
 
 ## 📂 Project Structure
 
-projectGolang/
+```text
+projectGolang/ 
 ├── main.go
 ├── file.txt
 ├── go.mod
@@ -30,6 +31,7 @@ projectGolang/
 │   └── reader.go
 ├── counter/
 │   └── counter.go
+```
 
 ---
 
@@ -52,6 +54,7 @@ projectGolang/
 
 4. **Example Output**
 
+```text
 Total words in file: 372
 Top 5 most frequent words:
 1. the (28 occurrences)
@@ -59,3 +62,4 @@ Top 5 most frequent words:
 3. of (15 occurrences)
 4. to (14 occurrences)
 5. a (13 occurrences)
+```
